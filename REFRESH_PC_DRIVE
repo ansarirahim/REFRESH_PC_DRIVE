@@ -1,0 +1,7 @@
+#!/bin/bash
+umount -a 1>/dev/null 2>/dev/null
+
+ mount /dev/mmcblk0p1 -t vfat /root/PROGRAM 1>/dev/null 2>/dev/null
+
+
+echo "ACK"
